@@ -1,0 +1,141 @@
+[
+  {
+    "sentence": "复测血压140/63mmHg。",
+    "events": [
+      {
+        "trigger": [
+          {
+            "text": "复测",
+            "start": "0",
+            "end": "2",
+            "event_type": "检查指标判读"
+          }
+        ],
+        "arguments": [
+          {
+            "text": "血压",
+            "start": "2",
+            "end": "4",
+            "role": "Arg-obj"
+          },
+          {
+            "text": "140/63mmHg",
+            "start": "4",
+            "end": "14",
+            "role": "Arg-result"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "吸痰为大量黄白粘痰，血氧饱和度98%。",
+    "events": [
+      {
+        "trigger": [
+          {
+            "text": "吸痰",
+            "start": "0",
+            "end": "2",
+            "event_type": "吸痰法"
+          }
+        ],
+        "arguments": [
+          {
+            "text": "为大量黄白粘痰，血氧饱和度98%",
+            "start": "2",
+            "end": "18",
+            "role": "Arg-result"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "体温38.2℃，告知医生，给予化学冰袋物理降温，继续监测体温变化。",
+    "events": [
+      {
+        "trigger": [
+          {
+            "text": "化学冰袋物理降温",
+            "start": "15",
+            "end": "23",
+            "event_type": "复温/保温技术"
+          }
+        ],
+        "arguments": [
+          {
+            "text": "体温38.2℃",
+            "start": "0",
+            "end": "7",
+            "role": "Arg-stat"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "化验室回报危急值：纤维蛋白原8.08g/L,已告知医生，患者双下肢无肿胀，皮温暖、色泽正常。",
+    "events": [
+      {
+        "trigger": [
+          {
+            "text": "回报",
+            "start": "3",
+            "end": "5",
+            "event_type": "化验结果回报"
+          }
+        ],
+        "arguments": [
+          {
+            "text": "危急值",
+            "start": "5",
+            "end": "8",
+            "role": "Arg-obj"
+          },
+          {
+            "text": "纤维蛋白原8.08g/L",
+            "start": "9",
+            "end": "21",
+            "role": "Arg-result"
+          },
+          {
+            "text": "双下肢无肿胀，皮温暖、色泽正常",
+            "start": "30",
+            "end": "45",
+            "role": "Arg-stat"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "患者心率126次/分，呼吸23次/分，血氧饱和度84%，闻及喉间痰鸣音，患者不能自行咳出,遵医嘱给予经口吸痰，吸出Ⅱ度黄色粘痰，量约2ml，吸痰后心率123次/分，呼吸17次/分，血氧饱和度100%。",
+    "events": [
+      {
+        "trigger": [
+          {
+            "text": "吸痰",
+            "start": "52",
+            "end": "54",
+            "event_type": "吸痰法"
+          }
+        ],
+        "arguments": [
+          {
+            "text": "心率126次/分，呼吸23次/分，血氧饱和度84%，闻及喉间痰鸣音，患者不能自行咳出",
+            "start": "2",
+            "end": "44",
+            "role": "Arg-stat"
+          },
+          {
+            "text": "吸出Ⅱ度黄色粘痰，量约2ml，吸痰后心率123次/分，呼吸17次/分，血氧饱和度100%",
+            "start": "55",
+            "end": "99",
+            "role": "Arg-result"
+          }
+        ]
+      }
+    ]
+  }
+]

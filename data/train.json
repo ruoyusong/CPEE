@@ -1,0 +1,356 @@
+[
+  {
+    "sentence": "血袋号码为999180420072243803的普通冰冻血浆输注过程中，50滴/分,心率91次/分，血压115/58mmHg,呼吸13次/分，血氧饱和度100%。",
+    "events": [
+      {
+        "trigger": [
+          {
+            "text": "输注",
+            "start": "30",
+            "end": "32",
+            "event_type": "输注"
+          }
+        ],
+        "arguments": [
+          {
+            "text": "血袋号码为999180420072243803的普通冰冻血浆",
+            "start": "0",
+            "end": "30",
+            "role": "Arg-obj"
+          },
+          {
+            "text": "过程中，50滴/分,心率91次/分，血压115/58mmHg,呼吸13次/分，血氧饱和度100%",
+            "start": "32",
+            "end": "80",
+            "role": "Arg-result"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "复测血压131/54mmHg，动脉压153/62mmHg。",
+    "events": [
+      {
+        "trigger": [
+          {
+            "text": "复测",
+            "start": "0",
+            "end": "2",
+            "event_type": "检查指标判读"
+          }
+        ],
+        "arguments": [
+          {
+            "text": "血压",
+            "start": "2",
+            "end": "4",
+            "role": "Arg-obj"
+          },
+          {
+            "text": "131/54mmHg",
+            "start": "4",
+            "end": "14",
+            "role": "Arg-result"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "复测T38.2℃，给予贴敷降温。",
+    "events": [
+      {
+        "trigger": [
+          {
+            "text": "复测",
+            "start": "0",
+            "end": "2",
+            "event_type": "检查指标判读"
+          }
+        ],
+        "arguments": [
+          {
+            "text": "T",
+            "start": "2",
+            "end": "3",
+            "role": "Arg-obj"
+          },
+          {
+            "text": "38.2℃",
+            "start": "3",
+            "end": "8",
+            "role": "Arg-result"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "现心率86次/分，ECG示房颤，遵医嘱将胺碘酮注射液调至5ml/h（500μg/min）微量泵泵入。",
+    "events": [
+      {
+        "trigger": [
+          {
+            "text": "调",
+            "start": "26",
+            "end": "27",
+            "event_type": "基础调整操作"
+          }
+        ],
+        "arguments": [
+          {
+            "text": "现心率86次/分，ECG示房颤",
+            "start": "0",
+            "end": "15",
+            "role": "Arg-stat"
+          },
+          {
+            "text": "胺碘酮注射液",
+            "start": "20",
+            "end": "26",
+            "role": "Arg-obj"
+          },
+          {
+            "text": "至5ml/h（500μg/min）微量泵泵入",
+            "start": "27",
+            "end": "49",
+            "role": "Arg-result"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "血常规回报：血红蛋白104g/L，HCT29.7%。",
+    "events": [
+      {
+        "trigger": [
+          {
+            "text": "回报",
+            "start": "3",
+            "end": "5",
+            "event_type": "化验结果回报"
+          }
+        ],
+        "arguments": [
+          {
+            "text": "血常规",
+            "start": "0",
+            "end": "3",
+            "role": "Arg-obj"
+          },
+          {
+            "text": "血红蛋白104g/L，HCT29.7%",
+            "start": "6",
+            "end": "25",
+            "role": "Arg-result"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "患者血压174/88mmHg,调整乌拉地尔泵入剂量，给予丙泊酚泵入。",
+    "events": [
+      {
+        "trigger": [
+          {
+            "text": "调",
+            "start": "15",
+            "end": "16",
+            "event_type": "基础调整操作"
+          }
+        ],
+        "arguments": [
+          {
+            "text": "血压174/88mmHg",
+            "start": "2",
+            "end": "14",
+            "role": "Arg-stat"
+          },
+          {
+            "text": "乌拉地尔泵入剂量",
+            "start": "17",
+            "end": "25",
+            "role": "Arg-obj"
+          }
+        ]
+      },
+      {
+        "trigger": [
+          {
+            "text": "泵入",
+            "start": "31",
+            "end": "33",
+            "event_type": "泵的使用"
+          }
+        ],
+        "arguments": [
+          {
+            "text": "丙泊酚",
+            "start": "28",
+            "end": "31",
+            "role": "Arg-obj"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "ABP：166/84mmHg，已告知医生，遵医嘱将多巴胺调至0.5ml/h（1ug/kg/min）微量泵入，将呋塞米注射液调至2ml/h微量泵入，并继续监测患者生命体征变化。",
+    "events": [
+      {
+        "trigger": [
+          {
+            "text": "调",
+            "start": "28",
+            "end": "29",
+            "event_type": "基础调整操作"
+          }
+        ],
+        "arguments": [
+          {
+            "text": "多巴胺",
+            "start": "25",
+            "end": "28",
+            "role": "Arg-obj"
+          },
+          {
+            "text": "至0.5ml/h（1ug/kg/min）微量泵入",
+            "start": "29",
+            "end": "53",
+            "role": "Arg-result"
+          },
+          {
+            "text": "ABP：166/84mmHg",
+            "start": "0",
+            "end": "14",
+            "role": "Arg-stat"
+          }
+        ]
+      },
+      {
+        "trigger": [
+          {
+            "text": "调",
+            "start": "61",
+            "end": "62",
+            "event_type": "基础调整操作"
+          }
+        ],
+        "arguments": [
+          {
+            "text": "呋塞米注射液",
+            "start": "55",
+            "end": "61",
+            "role": "Arg-obj"
+          },
+          {
+            "text": "至2ml/h微量泵入",
+            "start": "62",
+            "end": "72",
+            "role": "Arg-result"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "前往检查患者在外送人员陪同下推轮椅前往CT室做检查，引流管给予妥善固定。",
+    "events": []
+  },
+  {
+    "sentence": "鼻肠管(1)引流方式:灌饮食固定好畅通插管深度:120cm",
+    "events": [
+      {
+        "trigger": [
+          {
+            "text": "引流",
+            "start": "6",
+            "end": "8",
+            "event_type": "引流管的护理"
+          }
+        ],
+        "arguments": [
+          {
+            "text": "鼻肠管",
+            "start": "0",
+            "end": "3",
+            "role": "Arg-obj"
+          },
+          {
+            "text": "方式:灌饮食固定好畅通插管深度:120cm",
+            "start": "8",
+            "end": "29",
+            "role": "Arg-result"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "血袋号码为999180419194459243的悬浮少白细胞红细胞输注完成，过程顺利，心率76次/分，无输血反应发生。",
+    "events": [
+      {
+        "trigger": [
+          {
+            "text": "输注",
+            "start": "33",
+            "end": "35",
+            "event_type": "输注"
+          }
+        ],
+        "arguments": [
+          {
+            "text": "血袋号码为999180419194459243的悬浮少白细胞红细胞",
+            "start": "0",
+            "end": "33",
+            "role": "Arg-obj"
+          },
+          {
+            "text": "完成，过程顺利，心率76次/分，无输血反应发生",
+            "start": "35",
+            "end": "58",
+            "role": "Arg-result"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "测血糖：10.0mmol/L，遵医嘱将胰岛素调至1iu/h静脉泵入。",
+    "events": [
+      {
+        "trigger": [
+          {
+            "text": "调",
+            "start": "22",
+            "end": "23",
+            "event_type": "基础调整操作"
+          }
+        ],
+        "arguments": [
+          {
+            "text": "血糖：10.0mmol/L",
+            "start": "1",
+            "end": "14",
+            "role": "Arg-stat"
+          },
+          {
+            "text": "胰岛素",
+            "start": "19",
+            "end": "22",
+            "role": "Arg-obj"
+          },
+          {
+            "text": "至1iu/h静脉泵入",
+            "start": "23",
+            "end": "33",
+            "role": "Arg-result"
+          }
+        ]
+      }
+    ]
+  }
+]

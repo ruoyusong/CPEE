@@ -1,0 +1,57 @@
+[
+  {
+    "sentence": "BP：118/70mmHg，告知医生，遵医嘱继续监测血压变化。",
+    "events": []
+  },
+  {
+    "sentence": "患者尿管到期，遵医嘱予患者更换尿管，拔出管路完整，重新留置,过程顺利，可见黄色清亮尿液流出，予以妥善固定。",
+    "events": [
+      {
+        "trigger": [
+          {
+            "text": "更换",
+            "start": "13",
+            "end": "15",
+            "event_type": "基础调整操作"
+          }
+        ],
+        "arguments": [
+          {
+            "text": "尿管到期",
+            "start": "2",
+            "end": "6",
+            "role": "Arg-stat"
+          },
+          {
+            "text": "尿管",
+            "start": "15",
+            "end": "17",
+            "role": "Arg-obj"
+          },
+          {
+            "text": "拔出管路完整，重新留置,过程顺利，可见黄色清亮尿液流出，予以妥善固定",
+            "start": "18",
+            "end": "52",
+            "role": "Arg-result"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "日间持续气管插管处试脱机，加强气道湿化，按需吸痰",
+    "events": [
+      {
+        "trigger": [
+          {
+            "text": "吸痰",
+            "start": "22",
+            "end": "24",
+            "event_type": "吸痰法"
+          }
+        ],
+        "arguments": []
+      }
+    ]
+  }
+]
