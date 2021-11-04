@@ -9,7 +9,7 @@ Event extraction on Chinese nursing records.
 We propose event schemas for nursing records and annotate a Chinese nursing event extraction dataset (CNEED) on ICU nursing records.  It is not convenient to open source, but some cases are provided in `data`. You can replace the dataset.
 
 # Model
-<img src="https://gitee.com/songruoyu/pic-bed/raw/master/img/202111032143539.png" alt="image-20211103214339491" width="500" height="300" />
+<img src="https://gitee.com/songruoyu/pic-bed/raw/master/img/202111032143539.png" alt="image-20211103214339491" width="600" height="400" />
 
 # Usage
 
