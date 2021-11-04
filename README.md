@@ -1,6 +1,5 @@
 # CPEE
 A Multi-Event Extraction Model on Nursing Records, pipeline method
-images/image.png
 
 # Background
 
