@@ -42,32 +42,3 @@ def config():
 
 
 
-"""
-class Config(object):
-    #配置参数
-
-    def __init__(self, dataset):
-        self.model_name = 'bert'
-
-
-        self.output_dir='result'
-        self.device = torch.device('cuda' if torch.cuda.is_available() else 'cpu') # 设备
-        self.train_path='data/train.json'
-        self.dev_path='data/dev.json'
-        self.test_path='data/test.json'
-
-        self.num_epochs = 30  # epoch数
-        self.batch_size = 64   # mini-batch大小
-        self.pad_size = 128  # 每句话处理成的长度(短填长切)
-        self.learning_rate=3e-5
-        self.weight_decay=0.01
-        self.bert_path = '/home/rysong/work/pretrained_model/bert_base_chinese'
-        self.token_nizer = BertTokenizer.from_pretrained(self.bert_path)
-        # 加载bert的分词器
-        self.hidden_dim = 768
-        self.mid_dim = 268
-        self.event_num = 32
-        self.argument_num = 3
-"""
-
-
